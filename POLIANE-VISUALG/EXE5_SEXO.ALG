@@ -1,0 +1,32 @@
+Algoritmo "exe5_sexo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : poliane sales
+// Data atual  : 30/03/2022
+Var
+// Seção de Declarações das variáveis
+   sexo: caractere
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   escrevaL ("M = mulher | H = homem | O = outros")
+
+   escrevaL ( "Digite uma sigla para seu sexo: ")
+   leia(sexo)
+
+   sexo <- maiusc(sexo)
+
+   escolha sexo
+      caso "m"
+        escreva("voce e mulher")
+      caso "h"
+        escreva("voce e homem")
+      caso "o"
+        escreva("voce e outro")
+      outrocaso
+      escreval("Entrada invalida")
+      fimescolha
+
+      escreval ("obrigada")
+
+Fimalgoritmo
